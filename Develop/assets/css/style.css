@@ -1,22 +1,27 @@
+/* general rules that apply to the page by default */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* defines default background color before applying sections */
 body {
   background-color: #d9dcd6;
 }
 
+/* defines white color for header links */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* defines font size 16 for all <p> elements */
 p {
   font-size: 16px;
 }
 
+/* Provides format for the HTML header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -51,6 +56,7 @@ p {
   margin-left: 25px;
 }
 
+/* Formats the primary backround image of the HTML page */
 #hero {
   height: 100%;
   width: 100%;
@@ -59,16 +65,19 @@ p {
   background-position: center;
 }
 
+/* Left-aligns Search Engine Optimization and Social Media Marketing */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Right-aligns Online Reputation Management */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Used for Search Engine Opimization, Online Reputation Management, and Social Media Marketing sections */
 .seo-orm-smm-content {
   width: 75%;
   display: inline-block;
@@ -93,6 +102,7 @@ p {
   font-size: 36px;
 }
 
+/* Used to format Lead Generation, Brand Awareness, and Cost Management */
 .right-panel {
   margin-right: 20px;
   padding: 20px;
@@ -120,6 +130,7 @@ p {
   max-width: 150px;
 }
 
+/* Formats the footer */
 .footer {
   padding: 30px;
   clear: both;
