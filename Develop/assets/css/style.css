@@ -81,22 +81,6 @@ p {
   background-color: #2589bd;
 }
 
-.right-panel article {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.right-panel article h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.right-panel article img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
 .seo-orm-smm-content {
   width: 75%;
   display: inline-block;
@@ -119,6 +103,22 @@ p {
 .seo-orm-smm-content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+.right-panel article {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.right-panel article h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.right-panel article img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 .footer {
