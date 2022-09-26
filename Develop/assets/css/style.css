@@ -70,7 +70,7 @@ p {
   margin-left: 25px;
 }
 
-.benefits {
+.right-panel {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -81,17 +81,17 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-header {
+.right-panel section {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-header h3 {
+.right-panel section h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-header img {
+.right-panel section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
