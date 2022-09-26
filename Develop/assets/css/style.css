@@ -69,17 +69,6 @@ p {
   margin-left: 25px;
 }
 
-.right-panel {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-
 .seo-orm-smm-content {
   width: 75%;
   display: inline-block;
@@ -102,6 +91,17 @@ p {
 .seo-orm-smm-content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
+}
+
+.right-panel {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
 .right-panel article {
