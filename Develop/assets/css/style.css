@@ -51,7 +51,7 @@ p {
   font-size: 16px;
 }
 
-.hero {
+#hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -70,7 +70,7 @@ p {
   margin-left: 25px;
 }
 
-.content {
+.seo-orm-smm-content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -87,55 +87,23 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-header {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-header h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+.benefit-header img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
+.seo-orm-smm-subcontent {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -162,7 +130,7 @@ p {
   color: #ffffff;
 }
 
-.search-engine-optimization img {
+.seo-orm-smm-subcontent img {
   max-height: 200px;
 }
 
@@ -174,7 +142,7 @@ p {
   max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.seo-orm-smm-subcontent h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
