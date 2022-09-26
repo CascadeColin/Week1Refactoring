@@ -2,73 +2,55 @@ changed img tags to be more accessible
 refactored the HTML and CSS code to be more accessible to programmer
 Consolidated redundant CSS code
 
+# 02-Challenge - Refactoring HTML and CSS
 
-# <02-Challenge - Refactoring HTML and CSS>
+## Overview
 
-## Description
+### The goal of this project was twofold:
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+- Refactor the extisting code to utilize semantic structure
+- Provide accessibility to users with
+  disabilities
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-Horiseon approached me with a request to make to their website more accessible to all types of users, including those with hearing and auditory disabilities.
+This project provided me with insight about users with disabilities that I had previously never considered. How do people that are blind, deaf, or both access the internet? The answer is accessibility functions and it has become clear that it is critical consider these users when developing projects.
 
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
+- [Refactoring](#Refactoring)
+- [Accessibility](#Accessibility)
+- [Technology](#Technology)
 - [License](#license)
+- [Badges](#badges)
 
-## Installation
+## Refactoring
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+[Accessibility](#Accessibility) features were implemented while the refactoring was being completed in the name of efficiency. HTML and CSS code has been improved utilizing best practices for semantic structure. There was redundant code present in CSS that was removed entirely. The remaining CSS elements were consolidated into a single structure. This had the added benefit of cleaning up the HTML code by removing `id` and `class` selectors that were not necessary. All `<div>` elements were altered to be `<section>`, `<article>`, or `<img>` elements, all of which were wrapped into a `<main>` element. The main background image, located under the header, was changed to be an `<img>` element so that an `alt` attribute could be added for [Accessibility](#Accessibility). The existing CSS element was also changed to an `id` rather than a `class` due to it only being used once by the webpage. Lastly, the CSS elements that were previously consolidated were renamed in order to make them more intuitive for any future developer. Comments were also added to further this goal.
 
-## Usage
+## Accessibility
 
-Provide instructions and examples for use. Include screenshots as needed.
+First, HTML `alt=""` attributes were added to existing `<img>` elements. This provides users with vision impairments to understand the context of images. Second, WAI-ARIA accessibility features were added to provide context for screen readers. For example, there is a heart emoji in the footer of the webpage. The context of this is to inform the user that the website is "made with love" by Horiseon. However, the default Windows 10 screen reader Navigator reads this page as "Made with red heart by Horiseon". It's hard to say this is made with love when someone that is visually impaired cannot even properly comprehend this line! Therefore, WAI-ARIA features were used to apply context to the webpage.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Technology
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Microsoft's VS Code was the programming platform used to refactor the code and add accessibility features. Testing for accessibility for screen readers was done using Navigator, the built-in screen reader for Windows 10. A GitHub repository was utilized for version control, as well as provide a streamlined deployment to GitHub Pages. The original code was provided via a GitLab repository.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
+Copyright (c) 2022 CascadeColin
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
