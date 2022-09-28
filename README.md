@@ -1,7 +1,3 @@
-changed img tags to be more accessible
-refactored the HTML and CSS code to be more accessible to programmer
-Consolidated redundant CSS code
-
 # 02-Challenge - Refactoring HTML and CSS
 
 ## Overview
