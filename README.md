@@ -14,17 +14,22 @@ This project provided me with insight about users with disabilities that I had p
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Refactoring](#Refactoring)
-- [Accessibility](#Accessibility)
+- [Description](#Description)
 - [Technology](#Technology)
 - [License](#license)
 - [Badges](#badges)
 
-## Refactoring
+## Description
+
+Link to the deployed website: https://cascadecolin.github.io/Week1Refactoring/
+
+This image depicts the live website: ![Deployed Page](./Develop/assets/images/Horiseon_Colin.png)
+
+### Refactoring
 
 [Accessibility](#Accessibility) features were implemented while the refactoring was being completed in the name of efficiency. HTML and CSS code has been improved utilizing best practices for semantic structure. There was redundant code present in CSS that was removed entirely. The remaining CSS elements were consolidated into a single structure. This had the added benefit of cleaning up the HTML code by removing `id` and `class` selectors that were not necessary. All `<div>` elements were altered to be `<section>`, `<article>`, or `<img>` elements, all of which were wrapped into a `<main>` element. The main background image, located under the header, was changed to be an `<img>` element so that an `alt` attribute could be added for [Accessibility](#Accessibility). The existing CSS element was also changed to an `id` rather than a `class` due to it only being used once by the webpage. Lastly, the CSS elements that were previously consolidated were renamed in order to make them more intuitive for any future developer. Comments were also added to further this goal.
 
-## Accessibility
+### Accessibility
 
 First, HTML `alt=""` attributes were added to existing `<img>` elements. This provides users with vision impairments to understand the context of images. Second, WAI-ARIA accessibility features were added to provide context for screen readers. For example, there is a heart emoji in the footer of the webpage. The context of this is to inform the user that the website is "made with love" by Horiseon. However, the default Windows 10 screen reader Navigator reads this page as "Made with red heart by Horiseon". It's hard to say this is made with love when someone that is visually impaired cannot even properly comprehend this line! Therefore, WAI-ARIA features were used to apply context to the webpage.
 
@@ -47,6 +52,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+![HTML](https://img.shields.io/badge/HTML-60.5%25-red)
+
+![CSS](https://img.shields.io/badge/CSS-39.5%25-blue)
